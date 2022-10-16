@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185186c6-e9c2-49e3-9f70-ae84d38b1615" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GenericMethod/GenericMaxInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenericMethod/MaxInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericMethod/MaxInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +36,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MaxInteger">
+    <configuration name="GenericMaxInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericMethod.GenericMaxInteger" />
+      <module name="Day13_Practice_Problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GenericMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericMethod.MaxInteger" />
       <module name="Day13_Practice_Problem" />
@@ -51,6 +66,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MaxInteger" />
+        <item itemvalue="Application.GenericMaxInteger" />
       </list>
     </recent_temporary>
   </component>
