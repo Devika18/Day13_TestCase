@@ -10,12 +10,11 @@ public class MaxStringUC3 {
     public static String MaxString(String u, String v, String w) {
         //Initializing the Variable
         String max2 = u;
-        if (v.compareTo(u) > 0) {
+        if (v.compareTo(u) > 0)
             max2 = v;
-        }
-        if (w.compareTo(max2) > 0) {
+
+        if (w.compareTo(max2) > 0)
             max2 = w;
-        }
         System.out.println("Maximum string is: "+max2);
         return max2;
     }
