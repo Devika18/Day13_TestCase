@@ -35,6 +35,7 @@ public class MaxInteger {
         else
             System.out.println("Invalid");
     }
+    //Printing max integer to the first position
     public static void AddAtPosFirst() {
         int[] a = {15,25,20};
         int position = 1;
@@ -45,6 +46,22 @@ public class MaxInteger {
                 a[position] = max;
         }
         System.out.print(Arrays.toString(a));
+        System.out.println();
+        AddAtPosSecond();
+    }
+
+    public static void AddAtPosSecond() {
+        int[] a = {15,25,20};
+        int originalPosition = 1;
+        int newPosition = 1;
+        int max;
+        for(int i=0;i<a.length;i++) {
+            max = a[originalPosition];
+            a[originalPosition] = a[newPosition];
+            a[newPosition] = max;
+        }
+        System.out.print(Arrays.toString(a));
+        System.out.println();
     }
 }
 
