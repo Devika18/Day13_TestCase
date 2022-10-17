@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185186c6-e9c2-49e3-9f70-ae84d38b1615" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/GenericMethod/MaxIntegerUC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericMethod/MaxIntegerUC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericMethod/MaxFloatUC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericMethod/MaxFloatUC2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxIntegerUC1">
+  <component name="RunManager" selected="Application.MaxFloatUC2">
     <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericMethod.GenericMain" />
       <module name="Day13_Practice_Problem" />
@@ -102,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxFloatUC2" />
         <item itemvalue="Application.MaxIntegerUC1" />
         <item itemvalue="Application.GenericMain" />
         <item itemvalue="Application.MaxStringUC3" />
-        <item itemvalue="Application.MaxFloatUC2" />
         <item itemvalue="Application.GenericMaxInteger" />
       </list>
     </recent_temporary>
