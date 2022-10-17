@@ -3,13 +3,13 @@ package GenericMethod;
 public class MaxStringUC3 {
     public static void main(String[] args) {
         System.out.println("Program for finding maximum string");
-        String str1 = "Devika", str2 = "Yash", str3 = "Bhagyashree";
-        MaxString(str1,str2,str3);
+        System.out.printf("Maximum string from %s, %s and %s is:  %s\n","Anjali","Seema","Pooja",MaxString("Anajli", "Seema", "Pooja"));
+
 
     }
-    public static String MaxString(String u, String v, String w) {
+    public static <T extends Comparable<T>> T MaxString(T u, T v, T w) {
         //Initializing the Variable
-        String max2 = u;
+        T max2 = u;
         if (v.compareTo(u) > 0)
             max2 = v;
 
